@@ -3763,7 +3763,7 @@ async function getXrayFragmentConfigs(env, hostName) {
     }
     
     let bestPing = structuredClone(balancerConfig);
-    bestPing.remarks = '💦 BPB F - Best Ping 💥';
+    bestPing.remarks = '💦 BPB F - Besttt Ping 💥';
     bestPing.outbounds = [...outbounds, ...bestPing.outbounds];
     
     if (chainProxy) {
