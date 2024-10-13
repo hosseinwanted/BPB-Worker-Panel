@@ -3704,7 +3704,7 @@ async function buildXrayWorkerLessConfig(proxySettings) {
     let config = structuredClone(xrayConfigTemp);
     config.dns = await buildXrayDNS(proxySettings, true);
     config.routing.rules = buildXrayRoutingRules(proxySettings, false, false, true, false);
-    config.remarks  = '😈 BPB F - WorkerLess ⭐'
+    config.remarks  = '😈 --BPB F - WorkerLess ⭐'
     const fragmentSettings = config.outbounds[0].settings;
     fragmentSettings.domainStrategy = 'UseIP';
     fragmentSettings.fragment.length = `${lengthMin}-${lengthMax}`;
